@@ -1,0 +1,24 @@
+{
+  "name": "genpark-pazi-workflow-aligner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Pazi business operational macro builder.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "workflow",
+    "macro",
+    "pazi"
+  ],
+  "inputs": {
+    "action_trigger": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "workflow_path": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
